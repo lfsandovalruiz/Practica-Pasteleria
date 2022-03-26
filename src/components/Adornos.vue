@@ -1,5 +1,5 @@
 <template>
-  <div class="p-6 w-full bg-[#d6edc1]">
+  <div class="p-6 w-full bg-[#d6edc1] rounded-lg shadow-xl">
     <h2 class="text-center mb-2 text-[#52574F] font-semibold">Adornos</h2>
     <div class="flex flex-col h-full">
       <p class="text-xl my-1"><span class="font-semibold">Globos:</span>{{ globos}} pzs</p>

@@ -1,8 +1,6 @@
 <template>
   <form class="py-3 px-2 flex flex-col space-y-4 bg-[#d6edc1] grow">
 
-    <!-- <h2>{{ $store.state.saludar }}</h2> -->
-
     <!-- Datos del cliente -->
     <div class="flex flex-col space-y-2">
 
@@ -49,10 +47,6 @@
             <label for="fresa">Fresa</label>
           </div>
           
-          <!-- <ul>
-            <li v-for="(sabor, indice) in pastel.sabores" v-bind:key="indice">{{ sabor }}</li>
-          </ul> -->
-          
         </div>
 
         <!-- adornos -->
@@ -76,10 +70,6 @@
             <input v-model="pastel.adornos" type="checkbox" value="Escultura" id="escultura" name="escultura">
             <label for="escultura">Escultura con fondant (A partir de $20)</label>
           </div>
-
-          <!-- <ul>
-            <li v-for="(adorno, indice) in pastel.adornos" :key="indice">{{ adorno }}</li>
-          </ul> -->
 
         </div>
 
