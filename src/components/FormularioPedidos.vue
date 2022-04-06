@@ -23,7 +23,7 @@
 
     </div>
 
-    <!-- Datos del pastel -->
+    <!-- Datos del pastel --> 
     <div class="grow mt-3 flex flex-col space-y-2">
 
       <h3 class="text-center text-xl">Diseñe su propio pastel</h3>
